@@ -22,39 +22,7 @@
             const user_image        = `<img src="/assets/img/user.png" alt="User Avatar">`;
             const gpt_image         = `<img src="/assets/img/gpt.png" alt="GPT Avatar">`;
         </script>
-        <style>
-            .hljs {
-                color: #e9e9f4;
-                background: #28293629;
-                border-radius: var(--border-radius-1);
-                border: 1px solid var(--blur-border);
-                font-size: 15px;
-            }
-
-            #message-input {
-                margin-right: 30px;
-                height: 80px;
-            }
-
-            #message-input::-webkit-scrollbar {
-                width: 5px;
-            }
-
-            /* Track */
-            #message-input::-webkit-scrollbar-track {
-                background: #f1f1f1; 
-            }
-            
-            /* Handle */
-            #message-input::-webkit-scrollbar-thumb {
-                background: #c7a2ff; 
-            }
-
-            /* Handle on hover */
-            #message-input::-webkit-scrollbar-thumb:hover {
-                background: #8b3dff; 
-            }
-        </style>
+        <style src="/assets/css/chatstyle.js"></style>
         <script src="/assets/js/highlight.min.js"></script>
         <script src="/assets/js/highlightjs-copy.min.js"></script>
         <script>window.conversation_id = `{{chat_id}}`</script>
@@ -78,9 +46,9 @@
                     </button>
                     <div class="info">
                         <i class="fa-regular fa-circle-info"></i>
-                        <span class="convo-title">By: @xtekky<br>
+                        <span class="convo-title">By: Test<br>
                             Version: 0.0.1-beta<br>
-                            Release: 2023-04-18<br>
+                            Release: 2023-05-23<br>
                         </span>
                     </div>
                 </div>
